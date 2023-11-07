@@ -68,10 +68,9 @@ button.addEventListener('click',() => {
   cart.forEach((item) =>{
     if(productId === item.productId){
       matchingItem = item;
-    }
-
-  });
-  const quantitySelector =  document.querySelector(`.js-quantity-selector-${productId}`);
+    } });
+    
+    const quantitySelector =  document.querySelector(`.js-quantity-selector-${productId}`);
     
     const quantity = Number(quantitySelector.value);
     if(matchingItem){
@@ -85,8 +84,9 @@ button.addEventListener('click',() => {
     cart.forEach((item) =>{
       cartQuantity += item.quantity;
     });
-
+   
     document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+   
 
 });
 });
