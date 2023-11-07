@@ -19,16 +19,15 @@ input,select,button{
 }
 .button-primary{
   color:rgb(33, 33, 33);
-}
-.button-primary:hover{
   background-color: rgb(247, 202, 0);
   border:1px solid rgb(242,194,0);
 }
-.button-primary:active{
-  background-color: rgb(255, 216, 20);
-  border-color:rgb(255, 210, 0);
-  box-shadow:none;
+
+.button-primary:hover{
+  background-color: rgb(223, 183, 5);
+  border:1px solid rgb(242,194,0);
 }
+
 .button-secondary {
   color: rgb(33, 33, 33);
   background: white;
