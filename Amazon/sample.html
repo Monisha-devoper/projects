@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title></title>
+  </head>
+  <body>
+
+  </body>
+  <script>
+   function remove(num){
+    const result =[];
+    for(let i=0;i<num.length;i++){
+      if(num[i] === 2){
+        continue;
+      }result.push(num[i]);
+    }return result;
+  }
+    console.log(remove ([1,2,2,1,1]));
+    </script>
+</html>
